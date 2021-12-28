@@ -1,13 +1,14 @@
-Buzz Lightyear
+# Buzz Lightyear
 
-Junior Frontend Developer
+### Contact information:
 
-Contact information:
 Discourd: mrScalder#2773
 github: mrScalder
 email: mrscalder@gmail.com
 
-Briefly About Myself:
+
+
+### Briefly About Myself:
 
 Having started my career as a manual tester in a small company with minimum skills, I became junior automatization tester.
 My keep interest about all IT and connected techlogies help me to solve new task in new systems and projects.
