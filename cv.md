@@ -1,4 +1,6 @@
-# Buzz Lightyear (mrScalder)
+# Buzz mrScalder Lightyear 
+
+![photo](photo.gif)
 
 ## Contact information
 
@@ -28,37 +30,22 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 Random code from web
 
 ```
-class CircularList {
-  constructor(...args) {
-    this.index = -1;
-    if(!args.length) throw new Error('Required'); 
-    this.args = args;
-  }
-
-  next() {
-    if (this.index >= this.args.length - 1)
-      this.index = 0;
-    else
-      this.index += 1;
-    return this.args[this.index];
-  }
-
-  prev() {
-    if (this.index <= 0)
-      this.index = this.args.length - 1;
-    else
-      this.index -= 1;
-    return this.args[this.index];
-  }
+function solution(str){
+  return str.split('').reverse().join('');  
 }
 ```
 
 ## Courses
 
-JavaScript Manual on learnjavascript.ru (in progress)
-RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+JavaScript Manual on learnjavascript.ru (in progress)  
+RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)  
+![perfomance](perfomance.png)
 
 ## Languages
 
 English - Pre-intermediate  
 Russian - Native 
+
+## Projects
+
+opennlp example in Russian https://github.com/mrScalder/opennpl_examples
