@@ -3,6 +3,10 @@
     --left-padding: 30px;
 }
 
+a {
+    color: #3a3a3c;
+}
+
 body {
     display: block;
     width: 1000px;
@@ -59,6 +63,20 @@ nav a {
     color: white;
 }
 
+nav ul {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+nav li {
+    display:inline-block;
+    
+}
+
 .content {
     display: flex;
 }
@@ -88,7 +106,7 @@ pre {
 .hljs {
     color: purple;
     font-size: 14px;
-    font-family: Consolas, monaco, monospace;
+    font-family: monaco, monospace;
     font-weight: 700;
 }
 
