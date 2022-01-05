@@ -10,7 +10,7 @@ email: mrscalder@gmail.com
 
 ## Briefly About Myself:
 
-Having started my career as a manual tester in a small company with minimum skills, I became junior automatization tester.
+Have started my career as a manual tester in a small company with minimum skills, I became junior automatization tester.
 My keep interest about all IT and connected techlogies help me to solve new task in new systems and projects.
 
 I think what in past 5 years web frontend have a big step forward and set as one of most intrest think in IT and I didn\'t see no one project wich was not frontend connected and that`s why I think what the any IT engeneer must to know how frontend works.
@@ -30,7 +30,7 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 Random code from web
 
 ```
-function solution(str){
+function revert(str){
   return str.split('').reverse().join('');  
 }
 ```
