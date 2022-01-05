@@ -1,0 +1,148 @@
+:root {
+    --left-side-size: 33%;
+    --left-padding: 30px;
+}
+
+a {
+    color: #3a3a3c;
+}
+
+body {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #3a3a3c;
+    font-weight: 300;
+    background: #bfc0c2;
+    line-height: 2em;
+}
+
+header {
+    margin-top: 70px;
+    display: flex;
+    align-items: stretch;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 500;
+    flex-grow: 1;
+    margin: 0;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    padding-left: var(--left-padding);
+}
+
+header div.photo {
+    order: -1;
+    box-sizing: border-box;
+    flex: 0 0 var(--left-side-size);
+    background: #3a3a3c;
+    text-align: center;
+}
+
+img.photo {
+    margin: 40px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background: #3a3a3c;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px 0;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-around;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+nav li {
+    display:inline-block;
+    
+}
+
+.content {
+    display: flex;
+}
+
+.content aside {
+    flex: 0 0 var(--left-side-size);
+    color: white;
+    box-sizing: border-box;
+    padding-left: var(--left-padding);
+    background: #3a3a3c;
+}
+
+main {
+    box-sizing: border-box;
+    padding-left: var(--left-padding);
+    padding-right: var(--left-padding);
+    font-weight: 500;
+    background: white;
+}
+
+pre {
+    background: #1e1e1e;
+    padding: 0 var(--left-padding) var(--left-padding) var(--left-padding);
+    margin: 0;
+}
+
+.hljs {
+    color: purple;
+    font-size: 14px;
+    font-family: monaco, monospace;
+    font-weight: 700;
+}
+
+/* <!-- JS block --> */
+.hljs-keyword {
+    color: #568ca1;
+}
+
+.hljs-title {
+    color: yellow;
+}
+
+footer {
+    margin-bottom: 70px;
+}
+
+#opennlp:before {
+    content: url('https://pbs.twimg.com/profile_images/856843037359603712/NiXvdo4K_normal.jpg');
+    vertical-align: -50%;
+    padding: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
+footer > a {
+    padding: 3px 20px;
+    display: inline-block;
+}
+
+#rs_logo {
+    height: 20px;
+
+}
